@@ -1,0 +1,29 @@
+control_name,exception_count,severity,status
+customer_details - NULL customer_id,0,HIGH,PASS
+loan_accounts - NULL account_id,0,HIGH,PASS
+loan_accounts - NULL customer_id,0,HIGH,PASS
+loan_accounts - NULL product_id,0,HIGH,PASS
+product_reference - NULL product_id,0,HIGH,PASS
+product_reference - NULL interest_rate,0,HIGH,PASS
+repayment_schedule - NULL account_id,0,HIGH,PASS
+payment_records - NULL account_id,0,HIGH,PASS
+portfolio_snapshots - NULL account_id,0,HIGH,PASS
+portfolio_snapshots - NULL reporting_date,0,HIGH,PASS
+portfolio_snapshots - NULL dpd,0,HIGH,PASS
+portfolio_snapshots - NULL overdue_exposure,0,HIGH,PASS
+account_summary - NULL account_id,0,HIGH,PASS
+customer_details - Duplicate key,0,HIGH,PASS
+loan_accounts - Duplicate key,0,HIGH,PASS
+product_reference - Duplicate key,0,HIGH,PASS
+portfolio_snapshots - Duplicate key,0,HIGH,PASS
+Loan accounts - Invalid customer,0,HIGH,PASS
+Loan accounts - Invalid product,0,HIGH,PASS
+payment_records - Invalid account,0,HIGH,PASS
+repayment_schedule - Invalid account,0,HIGH,PASS
+portfolio_snapshots - Invalid account,0,HIGH,PASS
+Negative DPD,0,HIGH,PASS
+Negative overdue exposure,0,HIGH,PASS
+Current DPD with overdue exposure,0,HIGH,PASS
+Overdue DPD without overdue exposure,0,HIGH,PASS
+Paid/Partially Paid - Missing payment date,0,HIGH,PASS
+Unpaid - Positive amount paid,0,HIGH,PASS

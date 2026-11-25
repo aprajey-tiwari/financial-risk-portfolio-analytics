@@ -1,0 +1,6 @@
+product_id,interest_rate,total_accounts,overdue_accounts,overdue_account_rate_pct,total_overdue_exposure,avg_overdue_exposure_per_overdue_account,maximum_dpd,dpd_1_30_accounts,dpd_31_60_accounts,dpd_61_89_accounts,dpd_90_plus_accounts
+PL01,18.5,983,805,81.89,72879406.7,90533.42,1346,36,25,17,727
+CDL01,15.5,1009,849,84.14,72241254.48,85089.82,1365,51,23,17,758
+BL01,16,1044,874,83.72,72134168.1,82533.37,1361,45,19,19,791
+HL01,8.5,984,831,84.45,62435965.02,75133.53,1361,49,16,21,745
+AL01,10.5,980,819,83.57,62057894.79,75772.77,1357,34,20,22,743
